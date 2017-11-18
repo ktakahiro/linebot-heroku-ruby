@@ -24,7 +24,6 @@ post '/' do
     if event['type'] == 'beacon' then
       profile = client.get_profile(event['source']['userId']);
       displayName = JSON.parse(profile.body)['displayName']
-
       message = [
           {
               type: 'sticker',
