@@ -33,8 +33,13 @@ post '/' do
           },
           {
               type: 'text',
-              text: 'こんにちは！' + displayName + 'さん'
+              text: 'ようこそ奥多摩へ！' + displayName + 'さん'
+              u: https://www.youtube.com/watch?v=c8qvbu11fps
           }
+          {
+              type: 'text',
+              text: 'https://www.youtube.com/watch?v=c8qvbu11fps'
+      }
       ]
       client.reply_message(event['replyToken'], message)
     else
