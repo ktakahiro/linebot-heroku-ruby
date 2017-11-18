@@ -39,11 +39,11 @@ post '/' do
               text: 'https://www.youtube.com/watch?v=c8qvbu11fps'
           },
           {
-              'type': 'location',
-              'title': '日原鍾乳洞',
-              'address': '〒198-0211 東京都西多摩郡奥多摩町日原1052',
-              'latitude': 35.8532745500269,
-              'longitude': 139.0410371275686
+              type: 'location',
+              title: '日原鍾乳洞',
+              address: '〒198-0211 東京都西多摩郡奥多摩町日原1052',
+              latitude: 35.8532745500269,
+              longitude: 139.0410371275686
           }
 
       ]
