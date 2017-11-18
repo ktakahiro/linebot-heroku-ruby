@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="ModuleRunConfigurationManager">
+    <shared />
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/vendor/bundle" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="line-bot-api (vbundled(1.2.0)) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/line-bot-api-1.2.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/line-bot-api-1.2.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rack (vbundled(1.6.8)) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/rack-1.6.8/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/rack-1.6.8/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/rack-1.6.8/contrib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/rack-1.6.8/example" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/rack-1.6.8/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/rack-1.6.8/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/rack-1.6.8/contrib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/rack-1.6.8/example" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rack-protection (vbundled(1.5.3)) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/rack-protection-1.5.3/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/rack-protection-1.5.3/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="sinatra (vbundled(1.4.8)) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/sinatra-1.4.8/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/sinatra-1.4.8/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="tilt (vbundled(2.0.7)) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/tilt-2.0.7/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/tilt-2.0.7/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/tilt-2.0.7/man" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/tilt-2.0.7/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/tilt-2.0.7/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/tilt-2.0.7/man" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.16.0, rbenv: 2.4.1) [gem]" level="application" />
+  </component>
+</module>
