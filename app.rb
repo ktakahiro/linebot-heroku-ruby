@@ -19,7 +19,7 @@ post '/' do
 
   events = client.parse_events_from(body)
   events.each { |event|
-    if event['type'] == 'message' then
+    if event['type'] == 'beacon' then
       if event['message']['type'] == 'text' then
         if event['message']['text'] == 'こんにちは' then
           profile = client.get_profile(event['source']['userId']);
