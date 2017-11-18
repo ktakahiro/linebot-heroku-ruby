@@ -20,8 +20,6 @@ post '/' do
   events = client.parse_events_from(body)
   events.each { |event|
     if event['type'] == 'beacon' then
-      if event['message']['type'] == 'text' then
-        if event['message']['text'] == 'こんにちは' then
           profile = client.get_profile(event['source']['userId']);
           displayName = JSON.parse(profile.body)['displayName']
 
@@ -51,8 +49,7 @@ post '/' do
           ]
           client.reply_message(event['replyToken'], message)
         end
-      end
-    end
+     
   }
   "OK"
 
